@@ -13,6 +13,8 @@
 		BAE97294245FE1B2002291F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE97292245FE1B2002291F4 /* Main.storyboard */; };
 		BAE97296245FE1B4002291F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE97295245FE1B4002291F4 /* Assets.xcassets */; };
 		BAE97299245FE1B4002291F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE97297245FE1B4002291F4 /* LaunchScreen.storyboard */; };
+		BAE972A12460A691002291F4 /* Chatt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE972A02460A691002291F4 /* Chatt.swift */; };
+		BAE972A32460AA38002291F4 /* ChattTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE972A22460AA38002291F4 /* ChattTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BAE97295245FE1B4002291F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAE97298245FE1B4002291F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAE9729A245FE1B4002291F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE972A02460A691002291F4 /* Chatt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatt.swift; sourceTree = "<group>"; };
+		BAE972A22460AA38002291F4 /* ChattTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				BAE9728E245FE1B2002291F4 /* SceneDelegate.swift */,
 				BAE97290245FE1B2002291F4 /* ViewController.swift */,
 				BAE97292245FE1B2002291F4 /* Main.storyboard */,
+				BAE972A02460A691002291F4 /* Chatt.swift */,
+				BAE972A22460AA38002291F4 /* ChattTableCell.swift */,
 				BAE97295245FE1B4002291F4 /* Assets.xcassets */,
 				BAE97297245FE1B4002291F4 /* LaunchScreen.storyboard */,
 				BAE9729A245FE1B4002291F4 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE972A32460AA38002291F4 /* ChattTableCell.swift in Sources */,
 				BAE97291245FE1B2002291F4 /* ViewController.swift in Sources */,
 				BAE9728D245FE1B2002291F4 /* AppDelegate.swift in Sources */,
+				BAE972A12460A691002291F4 /* Chatt.swift in Sources */,
 				BAE9728F245FE1B2002291F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
