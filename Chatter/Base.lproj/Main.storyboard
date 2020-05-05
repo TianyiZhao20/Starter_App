@@ -24,19 +24,19 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ath-hZ-qWN">
-                                            <rect key="frame" x="20" y="11" width="42" height="73"/>
+                                            <rect key="frame" x="20" y="11" width="42" height="73.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDz-oP-xeb">
-                                            <rect key="frame" x="20" y="94" width="374" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDz-oP-xeb">
+                                            <rect key="frame" x="20" y="94.5" width="374" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjh-fe-mN0">
-                                            <rect key="frame" x="352" y="19" width="42" height="21"/>
+                                            <rect key="frame" x="352" y="26" width="42" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -45,7 +45,7 @@
                                     <constraints>
                                         <constraint firstAttribute="trailingMargin" secondItem="fjh-fe-mN0" secondAttribute="trailing" id="5wj-NJ-90Q"/>
                                         <constraint firstItem="ath-hZ-qWN" firstAttribute="top" secondItem="qzT-O7-SMQ" secondAttribute="topMargin" id="7Ab-rK-lR2"/>
-                                        <constraint firstItem="fjh-fe-mN0" firstAttribute="top" secondItem="qzT-O7-SMQ" secondAttribute="topMargin" constant="8" id="BhW-fj-6iG"/>
+                                        <constraint firstItem="fjh-fe-mN0" firstAttribute="top" secondItem="qzT-O7-SMQ" secondAttribute="topMargin" constant="15" id="BhW-fj-6iG"/>
                                         <constraint firstItem="IDz-oP-xeb" firstAttribute="leading" secondItem="qzT-O7-SMQ" secondAttribute="leadingMargin" id="Qhf-A8-g4T"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="IDz-oP-xeb" secondAttribute="trailing" id="Wax-gE-qgJ"/>
                                         <constraint firstItem="ath-hZ-qWN" firstAttribute="leading" secondItem="qzT-O7-SMQ" secondAttribute="leadingMargin" id="XK3-2o-Rpk"/>
