@@ -1,7 +1,7 @@
 # Starter_App
 creating a starter app with frond end and back end
 
-The codes are under 
+The swift files are under folder Chatter.
 
 The App is currently connected to my back-end at:
 142.93.65.251
